@@ -1,0 +1,11 @@
+feedback
+
+Componente Práctico (1.05 / 5.0)
+* El readme justifica la estrategia de implementación, pero no está soportada con una implementación funcional (0.5 / 1.0)
+* Los estados del AI no están implementados. De hecho se borró el scritp de Warning (0.0 / 1.0)
+* Los nodos de los BT no están implementados (0.0 / 1.5)
+* El pool de balas no funciona correctamente. Si yo disparo una n+1-ésima bala, las balas vivas desaparecerán arbitrariamente y serán disparadas, en vez de equilibrar la cantidad de balas necesarias (0.2 / 0.4)
+* Las balas no se administran por medio de un pool; en consecuencia, no se cumple que no se creen ni destruyan constantemente (0.0 / 0.4).
+* Hay un script que sugiere implementación de instanciación de enemigos pero no es usado por ningún objeto en la escena, por tanto no se puede verificar que se cumpla que no se creen ni destruyan constantemente (0.0 / 0.4) ni que haya un límite de instancias activas en escena (0.35 / 0.7)
+
+Total: 1.05 / 5.0
